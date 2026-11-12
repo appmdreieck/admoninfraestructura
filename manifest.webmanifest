@@ -1,0 +1,46 @@
+{
+  "name": "Pagos y Flujo · Administración",
+  "short_name": "Pagos y Flujo",
+  "description": "Programación de pagos, expedientes en Drive, saldos por proveedor y flujo por proyecto.",
+  "id": "./",
+  "start_url": "./#/programacion",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F6F9",
+  "theme_color": "#0E1B33",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar pago",
+      "url": "./#/pago"
+    },
+    {
+      "name": "Proveedores",
+      "url": "./#/proveedores"
+    },
+    {
+      "name": "Flujo por proyecto",
+      "url": "./#/flujo"
+    }
+  ]
+}
